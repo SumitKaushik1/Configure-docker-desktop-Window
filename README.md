@@ -1,8 +1,8 @@
 # Configure-docker-desktop
 
-Update Windows 10:
+- Update Windows 10:
 
-First, visit the website Windows 10 Download Page.
+- First, visit the website Windows 10 Download Page.
 Download the "Windows Update Assistant".
 Run the downloaded file to update your Windows operating system.
 Restart your PC after the update completes.
