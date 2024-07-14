@@ -40,9 +40,9 @@
       - After installation, launch your installed Linux distribution (e.g., Ubuntu) from the Start menu.
       - Follow the setup instructions to create a new user account and password for your Linux environment.
    
-   - Download Docker Desktop:
+ ## Download Docker Desktop:
 
-      - Download Docker Desktop from the official Docker website.
+  - Download Docker Desktop from the official Docker website.
    
    - Install Docker Desktop:
 
@@ -54,6 +54,24 @@
      Start-Process 'Docker Desktop Installer.exe' -Wait -Verb RunAs
      ```````
      - Follow any prompts to complete the installation process.
-     - These steps should help you set up WSL with Ubuntu, install Docker Desktop, and run it on your Windows machine smoothly. Remember to follow administrative prompts and restart your system as necessary during the process.****
+     - These steps should help you set up WSL with Ubuntu, install Docker Desktop, and run it on your Windows machine smoothly. Remember to follow administrative prompts and restart your system as necessary during the process.
 
-now
+
+
+## To resolve the issues with Docker Desktop on Windows, follow these steps:
+
+  - Issue 1: An unexpected error was encountered while executing a WSL command
+  - Issue 2: Updating WSL: update failed: wsl.exe –update n–web-download not supported
+    Uninstall Docker Desktop:
+
+  - If you encounter either of the above errors, start by uninstalling Docker Desktop from your system.
+  Free Up Space on C: Drive:
+
+  - Ensure that you have at least 20 GB of free space on your C: drive. You can free up space by moving files from your C: drive to another drive, such as the E: drive, using File Explorer.
+  Download Docker Desktop Version 4.31.1:
+
+  - After freeing up space, download Docker Desktop version 4.31.1 (build 153621).
+  - Install Docker Desktop:
+
+  - Once downloaded, proceed with the installation of Docker Desktop. This version should run properly after installation.
+  - By following these steps, you should be able to resolve the errors and get Docker Desktop running smoothly on your system.
